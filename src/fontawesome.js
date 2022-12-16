@@ -5,6 +5,10 @@ import {
   faClose,
   faHandPointRight,
   faUpRightFromSquare,
+  faPhone,
+  faLocationDot,
+  faEnvelope,
+  faSpinner,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -24,5 +28,9 @@ library.add(
   faBars,
   faClose,
   faHandPointRight,
-  faUpRightFromSquare
+  faUpRightFromSquare,
+  faPhone,
+  faLocationDot,
+  faEnvelope,
+  faSpinner
 )

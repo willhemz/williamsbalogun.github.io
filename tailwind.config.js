@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         Manrope: 'Manrope',
       },
+      screens: {
+        vs: '400px',
+        xs: '500px',
+      },
     },
   },
   plugins: [],

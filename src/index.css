@@ -9,7 +9,7 @@
   *,*::before, *::after {
     margin: 0;
     padding: 0;
-    outline: none !important;
+    /* outline: none !important; */
     box-sizing: border-box;
   }
 
@@ -62,6 +62,27 @@
 
   .btn:hover {
     @apply text-bgMenu bg-white
+  }
+
+  textarea::-webkit-scrollbar, textarea::-moz-scrollbar {
+    display: none;
+  }
+
+  .links, a:visited {
+    @apply hover:text-white transition-all duration-500  focus:text-white
+  }
+
+  @keyframes anim {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spinner {
+    animation: anim 2000ms linear infinite;
   }
 }
 

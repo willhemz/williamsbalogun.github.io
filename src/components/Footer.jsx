@@ -5,7 +5,7 @@ import { faFacebook, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free
 const Footer = () => {
   return <>
     <footer className='bg-siteCol h-auto mt-24 w-full'>
-      <div className="connect p-5 flex flex-col gap-3 items-center">
+      <div id='socials' className="connect p-5 flex flex-col gap-3 items-center">
         <h2 className='text-xl'>Connect with me:</h2>
         <div className='text-4xl flex gap-5'>
           <a href="https://linkedin.com/in/williamsbalogun">
@@ -22,8 +22,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='p-5 text-center text-xs'>
-        <code>&copy; Williams Balogun 2022.</code>
+      <div className='p-5 text-center text-xs opacity-75 font-thin'>
+        <code>&copy; 2022 Williams Balogun. All Rights Reserved</code>
       </div>
     </footer>
   </>
