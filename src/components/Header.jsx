@@ -6,7 +6,7 @@ import resume from '../pages/home/asset/resume.pdf'
 const Header = () => {
  const [showMenu, setShowMenu] = useState(false)
   return <>
-    <header className='bg-siteCol bg-opacity-10 w-full p-5 xs:px-10 lg:px-16 md:py-10 fixed top-0 z-50'>
+    <header className='bg-siteCol bg-opacity-10 w-full p-5 xs:px-10 lg:px-16 md:py-8 fixed top-0 z-50'>
       <nav className='flex justify-between text-xl sm:text-2xl 2xl:text-4xl'>
         <div>
           <h3>

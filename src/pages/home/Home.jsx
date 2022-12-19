@@ -35,7 +35,7 @@ const Home = () => {
   }
 
   return <>
-    <main id='home' className='h-auto w-full -z-10 mt-[68px] md:mt-[112px]'>
+    <main id='home' className='h-auto w-full -z-10 mt-[68px] md:mt-[98px]'>
       <article className='intro h-56 vs:h-[290px] xs:h-[350px] sm:h-[420px] md:h-[600px] lg:h-[650px] overflow-hidden relative'>
         <section className='myImage'>
           <img className=' object-cover w-full h-full' src={williams} alt="" />
@@ -71,7 +71,7 @@ const Home = () => {
           <div>
             <h3>Obafemi Awolowo University</h3>
             <p className='font-thin'>
-              Bagged my first degree in Mechanical Engineering with a Second Class Upper Honors ranking in the top 1st percentile of the graduating class.
+              Bagged my first degree in Mechanical Engineering with a Second Class Upper Honors ranking in the 90th percentile of the graduating class.
             </p>
           </div>
         </section>

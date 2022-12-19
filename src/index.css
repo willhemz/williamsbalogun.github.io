@@ -53,7 +53,7 @@
 
 @layer components {
   .container {
-    @apply m-0 p-0 max-w-full h-auto relative
+    @apply m-0 p-0 w-screen max-w-full relative
   }
 
   .btn {
